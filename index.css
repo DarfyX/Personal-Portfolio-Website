@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Work+Sans:wght@400;500;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+}
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+section {
+    padding: 8px 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+#name {
+    margin: 0;
+}
+#nav-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+.nav-item {
+    margin: 8px;
+}
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+img {
+    width: 300px;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-text .skills-text .contact-text {
+    font-size: 16px;
+    padding-left: 20px;   
+}
+p, li {
+    line-height: 1.5em;
+}
+#skills-text {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#skills-text > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: 8px;
+}
+#contact-text > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: 8px;
+}
